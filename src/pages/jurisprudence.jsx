@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import styles from "@/styles/Jurisprudence.module.css";
+import styles from "@/styles/jurisprudence.module.css";
 import PdfViewer from "@/components/pdf-viewer"
 import JurisprudenceTabs from "@/components/jurisprudence-tab";
 import Paper from '@mui/material/Paper';
