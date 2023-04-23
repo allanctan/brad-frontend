@@ -1,0 +1,38 @@
+.Jurisprudence {
+    text-align: center;
+}
+
+.header {
+    background-color: #313b50;
+    min-height: 1vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+
+.title {
+    margin-left: 20px;
+}
+
+.label {
+    font-weight: bold;
+}
+
+.urlInput {
+    min-width: 30em;
+    margin: 10px;
+    color: black;
+}
+
+
+.paperStyle {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    padding-left: 20px;
+    padding-right: 20px; 
+}
