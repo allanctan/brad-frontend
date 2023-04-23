@@ -20,7 +20,7 @@ function Jurisprudence() {
     const [selectedTabIndex, setSelectedTabIndex] = React.useState(0);
     const [open, setOpen] = React.useState(false);
   
-    const backendUrl = 'http://localhost:5000';
+    const backendUrl = 'http://brad-backend.eastus.cloudapp.azure.com/';
 
     const handleClickOpen = () => {
       setOpen(true);

@@ -29,7 +29,7 @@ const Container = ({ children }) => {
 const Chatbox = ({filename}) => {
   const [messages, setMessages] = useState([]);
   const [question, setQuestion] = useState('');
-  const backendUrl = 'http://localhost:5000';
+  const backendUrl = 'http://brad-backend.eastus.cloudapp.azure.com/';
 
   const handleChange = (event) => {
     setQuestion(event.target.value);
