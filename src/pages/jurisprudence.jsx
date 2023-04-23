@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import styles from "../styles/Jurisprudence.module.css";
-import PdfViewer from "../components/pdf-viewer"
+import styles from "@/styles/Jurisprudence.module.css";
+import PdfViewer from "@/components/pdf-viewer"
 import JurisprudenceTabs from "@/components/jurisprudence-tab";
 import Paper from '@mui/material/Paper';
 import SimpleDialog from "@/components/progress-dialog";
