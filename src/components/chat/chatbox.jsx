@@ -29,7 +29,7 @@ const Container = ({ children }) => {
 const Chatbox = ({filename}) => {
   const [messages, setMessages] = useState([]);
   const [question, setQuestion] = useState('');
-  const backendUrl = 'https://74.235.196.155/';
+  const backendUrl = 'https://predictive-analytics.dev/';
 
   const handleChange = (event) => {
     setQuestion(event.target.value);

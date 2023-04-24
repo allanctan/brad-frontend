@@ -20,7 +20,7 @@ function Jurisprudence() {
     const [selectedTabIndex, setSelectedTabIndex] = React.useState(0);
     const [open, setOpen] = React.useState(false);
   
-    const backendUrl = 'https://74.235.196.155/';
+    const backendUrl = 'https://predictive-analytics.dev/';
 
     const handleClickOpen = () => {
       setOpen(true);
